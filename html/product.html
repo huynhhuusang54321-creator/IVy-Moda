@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://icons.getbootstrap.com/">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <script src="../js/menu.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png">
+        </div>
+
+        <div class="menu">
+            <li><a href="">NỮ</a>
+                <ul class="sub-menu">
+                    <li><a href="">ALL ITEMS</a></li>
+                    <li><a href="">NEW ARRIVAL</a></li>
+                    <li><a href="">ÁO</a>
+                        <ul>
+                            <li><a href="">Áo Sơ Mi</a></li>
+                            <li><a href="">Áo Len</a></li>
+                            <li><a href="">Áo Croptop</a></li>
+                            <li><a href="">Áo Thun</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">ÁO KHOÁC</a>
+                        <ul>
+                            <li><a href="">Áo Dạ/Măng Tô</a></li>
+                            <li><a href="">Áo Vest</a></li>
+                            <li><a href="">Áo Phao</a></li>
+                            <li><a href="">Áo Gile</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">SET BỘ</a>
+                        <ul>
+                            <li><a href="">Bộ Công Sở</a></li>
+                            <li><a href="">Bộ Thun Đen</a></li>
+
+                        </ul>
+                    </li>
+
+                </ul>
+
+
+            </li>
+
+            <li><a href="">NAM</a>
+                <ul class="sub-menu">
+                    <li><a href="">ALL ITEMS</a></li>
+                    <li><a href="">NEW ARRIVAL</a></li>
+                    <li><a href="">ÁO</a>
+                        <ul>
+                            <li><a href="">Áo Sơ Mi</a></li>
+                            <li><a href="">Áo Len</a></li>
+                            <li><a href="">Áo Thun</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">QUẦN</a>
+                        <ul>
+                            <li><a href="">Quần Dài</a></li>
+                            <li><a href="">Quần Short</a></li>
+                            <li><a href="">Quần Jean</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="">TRẺ EM</a></li>
+            <li><a href="">SALE</a></li>
+            <li><a href="">BST</a></li>
+            <li><a href="">THÔNG TIN</a></li>
+
+        </div>
+
+        <div class="others">
+            <li><input type="text" placeholder="Tìm Kiếm"> <i class="bi bi-search"></i></li>
+            <li><i class="bi bi-person"></i></li>
+            <li><i class="bi bi-cart"></i></li>
+        </div>
+
+
+    </header>
+
+
+    <!-- ---------product-------- -->
+
+    <section class="product row">
+        <div class="container">
+            <div class="product-top row">
+                <p>Trang chủ</p> <span>&minus;</span>
+                <p>Nữ</p><span>&minus;</span>
+                <p>Hàng nữ mới về</p><span>&minus;</span>
+                <p>áo thun</p>
+            </div>
+            <div class="product-content row">
+                <div class="product-content-left row">
+                    <div class="product-content-left-big-img">
+                        <img src="images/anh-sp-aothun-ghi-1.jpg">
+                    </div>
+
+                    <div class="product-content-left-small-img">
+                        <img src="images/anh-sp-aothun-ghi-1.jpg">
+                        <img src="images/anh-sp-aothun-ghi-2.jpg">
+                        <img src="images/anh-sp-aothun-ghi-3.jpg">
+                        <img src="images/anh-sp-aothun-ghi-4.jpg">
+                    </div>
+                </div>
+
+                <div class="product-content-right">
+                    <div class="product-content-right-product-name">
+                        <h1>Áo thun Cotton cổ kiểu</h1>
+                        <p>SKU: 57E4518</p>
+                    </div>
+
+                    <div class="product-content-right-product-price">
+                        <p> 343.000<sup>đ</sup></p>
+                    </div>
+
+                    <div class="product-content-right-product-color">
+                        <p><span style="font-weight: bold;">Màu sắc</span>: Ghi <span style="color: aqua;">*</span></p>
+                        <div class="product-content-right-product-color-img">
+                            <img src="images/color-img.png" alt="">
+                        </div>
+                    </div>
+                    <div class="product-content-right-product-size">
+                        <p style="font-weight: bold;">Size:</p>
+                        <div class="size">
+                            <span>S</span>
+                            <span>M</span>
+                            <span>L</span>
+                            <span>XL</span>
+                            <span>XXL</span>
+                        </div>
+                    </div>
+                    <div class="quantity">
+                        <p style="font-weight: bold;">Số Lượng:</p>
+                        <input type="number" min="0" value="1">
+                        <p style="color: red;">vui long chon Size</p>
+                    </div>
+                    <div class="product-content-right-product-button">
+                        <button><i class="bi bi-basket"></i>
+                            <p>Mua Hang</p>
+                        </button>
+                        <button>Tìm tại cửa hàng</button>
+                    </div>
+                    <div class="product-content-right-bottom">
+                        <div class="product-content-right-bottom-top">
+                            <i class="bi bi-chevron-down"></i>
+                        </div>
+                        <div class="product-content-right-bottom-content-big">
+                            <div class="product-content-right-bottom-title row">
+                                <div class="product-content-right-bottom-title-item gioithieu">
+                                    <p>GIỚI THIỆU</p>
+                                </div>
+                                <div class="product-content-right-bottom-title-item chitiet">
+                                    <p>CHI TIẾT SẢN PHẨM</p>
+                                </div>
+                                <div class="product-content-right-bottom-title-item baoquan">
+                                    <p>BẢO QUẢN</p>
+                                </div>
+                            </div>
+                            <div class="product-content-right-bottom-content">
+                                <div class="product-content-right-bottom-content-gioithieu">
+                                    - Áo polo nam tay ngắn phong cách hiện đại <br><br>
+
+                                    - Thiết kế cổ polo phối khóa kéo trẻ trung, tiện dụng<br><br>
+
+                                    - Form Regular vừa vặn, tạo cảm giác thoải mái khi mặc<br><br>
+
+                                    - Bảng màu thanh lịch, dễ phối nhiều trang phục<br><br>
+
+                                    - Chất liệu 58% Cotton, 39% Modal, 3% Spandex<br><br>
+
+                                    - Bề mặt vải mềm mịn, nhẹ và thoáng khí<br><br>
+
+                                    - Thấm hút mồ hôi tốt, phù hợp mặc cả ngày dài<br><br>
+
+                                    - Co giãn nhẹ giúp vận động linh hoạt hơn<br><br>
+
+                                    - Dễ phối cùng quần short, kaki hoặc quần dài casual<br><br>
+
+                                    Thông tin mẫu:<br><br>
+
+                                    Chiều cao: 180 cm<br><br>
+
+                                    Cân nặng: 74 kg<br><br>
+
+                                    Số đo 3 vòng: 98-79-97 cm<br><br>
+
+                                    Mẫu mặc size: L<br><br>
+
+                                    Lưu ý: Màu sắc sản phẩm thực tế sẽ có sự chênh lệch nhỏ so với ảnh do điều kiện
+                                    ánh<br>
+                                    sáng khi chụp và màu sắc hiển thị qua màn hình máy tính/ điện thoại.
+                                </div>
+                                <div class="product-content-right-bottom-content-chitietsanpham">
+
+                                    Dòng sản phẩm Men<br><br>
+                                    Nhóm sản phẩm Áo<br><br>
+                                    Cổ áo Cổ đức<br><br>
+                                    Tay áo Tay ngắn<br><br>
+                                    Kiểu dáng Regular<br><br>
+                                    Độ dài Dài thường<br><br>
+                                    Họa tiết Trơn<br><br>
+                                    Chất liệu Thun<br><br>
+                                </div>
+                                <div class="product-content-right-bottom-content-baoquan">
+                                    Chi tiết bảo quản sản phẩm :<br><br>
+
+                                    * Các sản phẩm thuộc dòng cao cấp (Senora) và áo khoác (dạ, tweed, lông, phao) chỉ
+                                    giặt khô, tuyệt đối không giặt ướt.<br><br>
+
+                                    * Vải dệt kim: sau khi giặt sản phẩm phải được phơi ngang tránh bai giãn.<br><br>
+
+                                    * Vải voan, lụa, chiffon nên giặt bằng tay.<br><br>
+
+                                    * Vải thô, tuytsi, kaki không có phối hay trang trí đá cườm thì có thể giặt
+                                    máy.<br><br>
+
+                                    * Vải thô, tuytsi, kaki có phối màu tương phản hay trang trí voan, lụa, đá cườm thì
+                                    cần giặt tay.<br><br>
+
+                                    * Đồ Jeans nên hạn chế giặt bằng máy giặt vì sẽ làm phai màu jeans. Nếu giặt thì nên
+                                    lộn trái sản phẩm khi giặt, đóng khuy, kéo khóa, không nên giặt chung cùng đồ sáng
+                                    màu, tránh dính màu vào các sản phẩm khác.<br><br>
+
+                                    * Các sản phẩm cần được giặt ngay không ngâm tránh bị loang màu, phân biệt màu và
+                                    loại vải để tránh trường hợp vải phai. Không nên giặt sản phẩm với xà phòng có chất
+                                    tẩy mạnh, nên giặt cùng xà phòng pha loãng.<br><br>
+
+                                    * Các sản phẩm có thể giặt bằng máy thì chỉ nên để chế độ giặt nhẹ, vắt mức trung
+                                    bình và nên phân các loại sản phẩm cùng màu và cùng loại vải khi giặt.<br><br>
+
+                                    * Nên phơi sản phẩm tại chỗ thoáng mát, tránh ánh nắng trực tiếp sẽ dễ bị phai bạc
+                                    màu, nên làm khô quần áo bằng cách phơi ở những điểm gió sẽ giữ màu vải tốt
+                                    hơn.<br><br>
+
+                                    * Những chất vải 100% cotton, không nên phơi sản phẩm bằng mắc áo mà nên vắt ngang
+                                    sản phẩm lên dây phơi để tránh tình trạng rạn vải.<br><br>
+
+                                    * Khi ủi sản phẩm bằng bàn là và sử dụng chế độ hơi nước sẽ làm cho sản phẩm dễ ủi
+                                    phẳng, mát và không bị cháy, giữ màu sản phẩm được đẹp và bền lâu hơn. Nhiệt độ của
+                                    bàn là tùy theo từng loại vải.<br><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="product-related">
+        <div class="product-related-title">
+            <p>SAN PHAM LIEN QUAN</p>
+        </div>
+        <div class="product-content row">
+            <div class="product-related-item">
+                <img src="images/anh-sp-aothun-ghi-2.jpg" alt="">
+                <h1>Áo thun Cotton cổ kiểu</h1>
+                <p> 343.000<sup>đ</sup></p>
+            </div>
+             <div class="product-related-item">
+                <img src="images/anh-sp-aothun-ghi-3.jpg" alt="">
+                <h1>Áo thun Cotton cổ kiểu</h1>
+                <p> 343.000<sup>đ</sup></p>
+            </div>
+             <div class="product-related-item">
+                <img src="images/anh-sp-aothun-ghi-4.jpg" alt="">
+                <h1>Áo thun Cotton cổ kiểu</h1>
+                <p> 343.000<sup>đ</sup></p>
+            </div>
+             <div class="product-related-item">
+                <img src="images/anh-sp-aothun-ghi-1.jpg" alt="">
+                <h1>Áo thun Cotton cổ kiểu</h1>
+                <p> 343.000<sup>đ</sup></p>
+            </div>
+             <div class="product-related-item">
+                <img src="images/anh-sp-aothun-ghi-2.jpg" alt="">
+                <h1>Áo thun Cotton cổ kiểu</h1>
+                <p> 343.000<sup>đ</sup></p>
+            </div>
+        </div>
+        
+    </section>
+
+
+
+
+
+
+
+    <!-- footer -->
+    <section class="footer-container">
+        <div class="footer-top">
+            <div class="top-child-container-logo">
+                <img src="images/logo.png">
+                <img src="images/dmca.png">
+                <img src="images/img-congthuong.png">
+
+            </div>
+
+            <div class="top-child-container-icon">
+                <li>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-youtube"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-google"></i></a>
+                </li>
+            </div>
+
+        </div>
+
+        <!-- menu footer -->
+        <div class="footer-menu">
+            <li>
+                <a href="">Giới Thiệu</a>
+                <ul class="footer-sub-menu">
+                    <li><a href="">Về IVY moda</a></li>
+                    <li><a href="">Tuyển Dụng</a></li>
+                    <li><a href="">Hệ Thống Cửa Hàng</a></li>
+
+                </ul>
+            </li>
+
+            <li>
+                <a href="">Dịch Vụ Khách Hàng</a>
+                <ul class="footer-sub-menu">
+                    <li><a href="">Chính Sách Điều Khoản</a></li>
+                    <li><a href="">Hướng Dẫn Mua Hàng</a></li>
+                    <li><a href="">Chính Sách Thanh Toán</a></li>
+                    <li><a href="">Chính Sách Đổi Trả</a></li>
+                    <li><a href="">Chính Sách Bảo Hành</a></li>
+                    <li><a href="">Chính Sách Giao Nhận Vận Chuyển</a></li>
+                    <li><a href="">Chính Sách Thẻ Thành Viên</a></li>
+                    <li><a href="">Q&A</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="">Liên Hệ</a>
+                <ul class="footer-sub-menu">
+                    <li><a href="">Hotline</a></li>
+                    <li><a href="">Email</a></li>
+                    <li><a href="">Live Chat</a></li>
+                    <li><a href="">Messenger</a></li>
+                    <li><a href="">Liên Hệ</a></li>
+                </ul>
+
+            </li>
+
+
+        </div>
+
+        <!-- app-container -->
+        <div class="footer-app">
+            <p>Tải ứng dụng IVY moda</p>
+            <div class="app">
+                <img src="images/ggplay.png" style="width: 100px;">
+                <img src="images/appstore.png" style="width: 100px;">
+            </div>
+
+            <p>Nhận bản tin IVY moda</p>
+            <input type="text" placeholder="Nhập email của bạn...">
+
+        </div>
+
+
+    </section>
+
+
+
+
+    <section class="footer-bottom">
+        <p>©IVYmoda All rights reserved</p>
+
+    </section>
+
+    <script src="../js/product.js" defer></script>
+</body>
+
+
+</html>

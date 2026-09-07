@@ -585,12 +585,14 @@ a {
 .product-content-right-bottom-content {
     padding-top: 30px;
 }
+
 .product-content-right-bottom-content-gioithieu,
 .product-content-right-bottom-content-chitietsanpham,
-.product-content-right-bottom-content-baoquan{
+.product-content-right-bottom-content-baoquan {
     display: none;
-    
+
 }
+
 .product-content-right-bottom-content-big {
     display: none;
 }
@@ -611,7 +613,7 @@ a {
 }
 
 .product-related>.product-content {
-    
+
     display: flex;
     gap: 5px;
 }
@@ -637,3 +639,55 @@ a {
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
 }
+
+/* -----------cart---------- */
+.cart {
+    padding: 100px 0;
+
+}
+
+.cart-top-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-top {
+    height: 2px;
+    width: 90%;
+    background-color: #dddddd;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 50px 0 100px;
+    position: relative;
+}
+
+.cart-top-item {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 2px solid #dddddd;
+    background-color: #fff;
+    position: relative;
+}
+
+.cart-top-item p {
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    text-align: center;
+    margin: 0;
+    font-size: 16px;
+
+}
+
+.cart-top-cart:first-child {
+    background-color: #333;
+    border-color: #333;
+}
+
